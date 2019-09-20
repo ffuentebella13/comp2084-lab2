@@ -8,7 +8,7 @@ namespace Lab2.Controllers
 {
     public class CategoriesController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Categories()
         {
             return View();
         }

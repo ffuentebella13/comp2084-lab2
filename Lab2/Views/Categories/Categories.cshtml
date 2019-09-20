@@ -1,8 +1,89 @@
 ﻿
 @{
-    ViewData["Title"] = "Categories";
+    ViewData["Title"] = "COMP2084 - Lab2";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Categories</h1>
+<h1>Whats On Sale Today!</h1>
+<ul>
+    <div class="product_list">
+        <div class="product">
+            <h3>KitKat<sub><a asp-controller="Categories" asp-action="Details" asp-route-product="KitKat" asp-route-price="2.99" asp-route-category="Food / Beverages" asp-route-details="Hershey's Kit Kat Crisp Wafers in Chocolate contain sugar, wheat flour, cocoa butter, nonfat milk, chocolate, refined palm kernel oil, lactose (milk), milk fat, contains 2% or less of: soy lecithin, PGPR (emulsifier), yeast, artificial flavor, salt, and sodium bicarbonate."> | Buy</a></sub></h3>
+            <h6>Food / Beverages</h6>
+            <h2>$ 2.99 <sub> only!</sub></h2>
+            <hr />
+
+            <details>Hershey's Kit Kat Crisp Wafers in Chocolate.</details>
+            <hr />
+        </div>
+
+
+    </div>
+
+    <div class="product_list">
+        <div class="product">
+            <h3>Coke<sub><a asp-controller="Categories" asp-action="Details" asp-route-product="Coke" asp-route-price="1.55" asp-route-category="Food / Beverages" asp-route-details="Coca-Cola, or Coke, is a carbonated soft drink manufactured by The Coca-Cola Company. Originally intended as a patent medicine, it was invented in the late 19th century by John Stith Pemberton."> | Buy</a></sub></h3>
+            <h6>Food / Beverages</h6>
+            <h2>$ 1.99<sub> only!</sub></h2>
+            <hr />
+
+            <details>
+                Coca-Cola, or Coke, is a carbonated soft drink manufactured by The Coca-Cola Company.
+            </details>
+            <hr />
+        </div>
+    </div>
+
+    <div class="product_list">
+        <div class="product">
+            <h3>Iphone X<sub><a asp-controller="Categories" asp-action="Details" asp-route-product="Iphone X" asp-route-price="999.88" asp-route-category="Gadget / Appliance" asp-route-details=" Featuring a glass over aluminum body, the iPhone X does away with home button altogether and introduces all new gestures, as well as Face ID for authentication. The display is a first for the iPhone as well: The iPhone X features a bezel-less 5.8-inch OLED display with a top notch for the camera."> | Buy</a></sub></h3>
+            <h6>Gadget / Appliance </h6>
+            <h2>$ 999.88 <sub> only!</sub></h2>
+            <hr />
+
+            <details>
+                Featuring a glass over aluminum body, the iPhone X does away with home button altogether.
+            </details>
+            <hr />
+        </div>
+    </div>
+    <div class="product_list">
+        <div class="product">
+            <h3>Macbook Pro<sub><a asp-controller="Categories" asp-action="Details" asp-route-product="Iphone X" asp-route-price="969.29" asp-route-category="Gadget / Appliance" asp-route-details=" The ultimate pro notebook, MacBook Pro features faster processors, the Apple T2 Security Chip and a Retina display with True Tone technology."> | Buy</a></sub></h3>
+            <h6>Gadget / Appliance </h6>
+            <h2>$ 969.29 <sub> only!</sub></h2>
+            <hr />
+
+            <details>
+                The ultimate pro notebook, MacBook Pro features faster processors, the Apple T2 Security Chip and a Retina display with True Tone technology.
+            </details>
+            <hr />
+        </div>
+    </div>
+    <div class="product_list">
+        <div class="product">
+            <h3>Threadmills<sub><a asp-controller="Categories" asp-action="Details" asp-route-product="Threadmills" asp-route-price="449.82" asp-route-category="Sports / Health" asp-route-details="Drill A Starter Hole: To determine the proper size of your starter hole, see our Tap Drill & Thread Height Chart. ... Harvey Tool’s broad line of fully stocked Threadmill Cutters features over 420 options for applications of all sizes."> | Buy</a></sub></h3>
+            <h6>Sports / Health </h6>
+            <h2>$ 499.82 <sub> only!</sub></h2>
+            <hr />
+
+            <details>
+                Drill A Starter Hole: To determine the proper size of your starter hole, see our Tap Drill & Thread Height Chart.
+            </details>
+            <hr />
+        </div>
+    </div>
+    <div class="product_list">
+        <div class="product">
+            <h3>Creatine<sub><a asp-controller="Categories" asp-action="Details" asp-route-product="Creatine" asp-route-price="88.21" asp-route-category="Sports / Health" asp-route-details="Creatine is a substance that is found naturally in muscle cells. It helps your muscles produce energy during heavy lifting or high-intensity exercise. Taking creatine as a supplement is very popular among athletes and bodybuilders in order to gain muscle, enhance strength and improve exercise performance."> | Buy</a></sub></h3>
+            <h6>Sports / Health </h6>
+            <h2>$ 88.21 <sub> only!</sub></h2>
+            <hr />
+            <details>
+                Creatine is a substance that is found naturally in muscle cells.
+            </details>
+            <hr />
+        </div>
+    </div>
+</ul>
 
