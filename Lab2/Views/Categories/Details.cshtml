@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewData["Title"] = "COMP2084 - Lab2";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="info">
+    <div class="price"><div class="price-info">$ @ViewBag.price <sub><br />Save 10% </sub></div></div>
+    <h5>You Selected Category: </h5>
+    <li>@ViewBag.product <sub>[@ViewBag.category]</sub></li>
+
+    <p>@ViewBag.details</p>
+    <hr />
+    Product Ratings:
+    <span style="font-size:150%;color:yellow;">&starf;</span>
+    <span style="font-size:150%;color:yellow;">&starf;</span>
+    <span style="font-size:150%;color:yellow;">&starf;</span>
+    <span style="font-size:150%;color:yellow;">&starf;</span>
+    <span style="font-size:150%;color:yellow;">&star;</span>
+
+</div>
+
